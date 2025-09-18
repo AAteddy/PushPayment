@@ -136,6 +136,8 @@ const getConfig = (config: Vals): TopLevelConfig => ({
     IFB_TRAFFICPENALTY_SFPRD: config.IFB_TRAFFICPENALTY_SFPRD,
     PORT_LOG: config.PORT_LOG,
     IP: config.IP,
+    REDIS_MODE: config.REDIS_MODE,
+    REDIS_PASSWORD: config.REDIS_PASSWORD,
     REDIS_URL: config.REDIS_URL,
     REDIS_PORT: config.REDIS_PORT,
     REDIS_HOST: config.REDIS_HOST,
