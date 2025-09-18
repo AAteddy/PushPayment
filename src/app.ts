@@ -9,6 +9,7 @@ import helmet from 'helmet';
 import dotenv from 'dotenv';
 import timeout from "connect-timeout";
 import chalk from "chalk";
+import { connectRedis } from "./redisDB/redisConnection";
 
 import { TopLevelConfig } from "./config/types/config";
 import initConfig from "./config";
@@ -86,7 +87,7 @@ const initApp = async () => {
     //   );
     // }
 
-    // void connectRedis();
+    void connectRedis();
 
     // try {
     //   await initializeKafka("budget-expense");

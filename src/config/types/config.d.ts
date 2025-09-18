@@ -135,6 +135,8 @@ export interface Vals {
   IFB_TRAFFICPENALTY_SFPRD: string;
   PORT_LOG: numbers;
   IP: string;
+  REDIS_MODE: string;
+  REDIS_PASSWORD: string;
   REDIS_URL?: string;
   REDIS_PORT: number;
   REDIS_BASICAUTH: string;
